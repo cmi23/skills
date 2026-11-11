@@ -1,6 +1,10 @@
 ---
 type: code
 title: Skill repo conventions
+resource:
+  - research-approach/SKILL.md
+  - README.md
+  - .claude/skills/verify-app/SKILL.md
 ---
 
 cmi23/skills is a markdown-only collection of agent skills, installed with `npx skills add cmi23/skills`. There is no app code, package manager, build or test suite.
